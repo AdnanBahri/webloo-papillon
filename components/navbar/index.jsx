@@ -23,7 +23,7 @@ const Navbar = () => {
           <Link href={"/"}>Levitate</Link>
         </div>
         <ul className="flex items-center gap-4">
-          <li className="py-1 px-3 text-lg border-white border-[3px] rounded-full inline-flex items-center justify-center">
+          <li className="py-1 px-3 text-lg border-white border-[3px] rounded-full inline-flex items-center justify-center hover:bg-white hover:text-primary-black focus:bg-white focus:text-primary-black">
             <Link href={"/contact"}>Get Started</Link>
           </li>
           <li className="cursor-pointer">

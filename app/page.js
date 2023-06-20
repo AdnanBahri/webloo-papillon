@@ -1,5 +1,5 @@
 import { Navbar } from "@/components";
-import { About, Hero, Schedule, Slider, Staggred } from "@/sections";
+import { About, Footer, Hero, Schedule, Slider, Staggred } from "@/sections";
 import {
   academyData,
   advisoryData,
@@ -24,6 +24,7 @@ export default function Home() {
         <Slider
           label={"ACADEMY"}
           data={academyData}
+          gradient={"gradient-03"}
           description={
             "Educate and Inspire your people by giving them the knowledge ecel in the latest technology, tactics and training."
           }
@@ -31,6 +32,7 @@ export default function Home() {
         <Slider
           label={"AGENCY"}
           data={agencyData}
+          gradient={"slider-gradient"}
           description={
             "Execute flawlessly with strategic talent and expert artistry. Our Agency will become a trusted extension of your marketing department."
           }
@@ -38,6 +40,7 @@ export default function Home() {
         <Slider
           label={"ALLIANCE"}
           data={allianceData}
+          gradient={"gradient-05"}
           description={
             "Execute flawlessly with strategic talent and expert artistry. Our Agency will become a trusted extension of your marketing department."
           }
@@ -45,6 +48,7 @@ export default function Home() {
       </div>
       <Staggred />
       <Schedule />
+      <Footer />
     </main>
   );
 }
